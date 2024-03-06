@@ -1,0 +1,538 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+  html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    font-family: "Roboto", sans-serif;
+  }
+  .main {
+    height: 90%;
+    width: 90%;
+    background-color: rgb(224 224 224);
+    border-radius: 12px;
+    box-shadow: 3px 1px 10.5px #726f6f;
+    display: flex;
+    padding: 1%;
+    gap: 1%;
+}
+.container_1{
+    width: 22%;
+    background: white;
+    box-shadow: 1px 1px 4.1px black;
+    border-radius: 12px;
+    padding: 10px;
+}
+.container_2{
+    width: 75%;
+    background: white;
+    box-shadow: 1px 1px 4.1px black;
+    border-radius: 12px;
+    padding: 10px;
+}
+.section_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 1px 0.2px #b7b6b6;
+    border-radius: 2px;
+    height: 12%;
+    margin-bottom: 5%;
+}
+.section_top img{
+  
+    height: 42px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 3px 0.5px #f1ecec;
+    border-radius: 2px;
+    height: 6%;
+    font-weight: bolder;
+    padding: 1% 8%;
+    transition: all ease-in 0.2s;
+}
+.section:hover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 1px 3px 0.8px #3d3c3c;
+    border-radius: 2px;
+    height: 6%;
+    font-weight: bolder;
+    padding: 1% 8%;
+
+}
+.section h4{
+  color: #808080;
+}
+.sec {
+    background: #ded8d8;
+    width: 17%;
+    padding: 2% 2%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 22px;
+    color: dimgrey;
+    height: 22%;
+}
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    box-shadow: 2px 2px 3px 0.5px #c1c1c1;
+    border-radius: 2px;
+    height: 4%;
+    font-size: 22px;
+    padding: 1% 8%;
+    color: grey;
+}
+.section_3{
+    display: flex;
+    flex-direction: column;
+    transition: all ease-in-out 0.4s;
+    margin-top: 1%;
+  }
+
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    box-shadow: 0px 1px 0px 0.5px #ece6e6;
+    border-radius: 2px;
+    height: 3%;
+    font-size: 15px;
+    padding: 1% 2%;
+    color: #363535;
+    font-weight: bold;
+    width: 95%;
+
+    
+}
+.section3:hover {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    box-shadow: 0px 2px 2px 0.5px #454444;
+    border-radius: 2px;
+    height: 3%;
+    font-size: 15px;
+    padding: 1% 2%;
+    color: #363535;
+    font-weight: bold;
+    width: 95%;
+    transition: all ease-in-out 0.2s;
+    
+}
+.section_3 {
+    margin-left: 30%;
+    height: 20%;
+    width: 60%;
+    background-color: rgb(246 246 246);
+    font-size: 13px;
+    line-height: 2px;
+    padding: 2% 3%;
+    color: grey;
+    border-radius: 2px;
+    transition: all ease-in-out 0.2s;
+}
+
+
+
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 0.4px #726f6f;
+}
+.head2 {
+    font-size: large;
+    box-shadow: 1px 0px 1.1px #726f6f;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    width: 27%;
+    justify-content: space-evenly;
+    border-radius: 4px;
+}
+
+.head_2 {
+    height: 6%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+}
+.elements{
+  height: 20px;
+  display: flex;
+}
+.elem {
+    width: fit-content;
+    border: 1px solid #c4bebe;
+    height: 30px 
+px
+;
+    padding: 1px 5px 1px;
+    border-radius: 10px;
+}.elem:hover {
+    width: fit-content;
+    border: 1px solid #383737;
+    height: 30px 
+px
+;
+    padding: 1px 5px 1px;
+    border-radius: 10px;
+}
+.table{
+    height: 70%;
+    padding: 1%;
+
+}
+.footer{
+    height: 10%;
+    padding: 1%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+}
+.tag {
+    height: 32%;
+    width: fit-content;
+   
+    padding: 1%;
+    font-weight: bold;
+    border: 1px solid #bab7b7;
+    border-radius: 10px;
+}
+.tag:hover{
+    height: 32%;
+    width: fit-content;
+   
+    padding: 1%;
+    font-weight: bold;
+    border: 1px solid #3f3f3f;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.table_head {
+    display: flex;
+    gap: 3.5%;
+    border-bottom: 1px solid #c4c4c4;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0px 1px;
+    color: #606060;
+    height: 11%;
+}
+.table_head h3{
+  width: 11%;
+}
+
+.row{
+  display: inline-block;
+}
+td {
+    width: 13%;
+   height: 70%;
+    padding: 0.5%;
+    box-shadow: 2px 3px 3px 1.3px #cfcfcf;
+    border-radius: 10px;
+    color: #545454;
+    margin-top: 1%;
+}
+td img{
+    width: 17%;
+}
+
+
+
+.members{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.members2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: -10px;
+    object-fit: cover;
+
+}
+.tags {
+    height: 18px;
+    width: 43%;
+    background: #e2e2e2;
+    color: #838383;
+    padding: 1px 1px;
+    border-radius: 12px;
+    font-size: 13px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.brand_column {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    gap: 4%;
+    align-items: center;
+}
+.tag_column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2%;
+}
+.desc_column {
+    white-space: nowrap;
+    overflow-x: hidden;
+   display: flex;
+   align-items: center;
+}
+.mem_column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cat_column{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.meet_column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    width: 17%;
+}
+tr{
+    display: flex;
+    height: 6vh;
+}
+</style>
+<body>
+  <div class="main">
+    <div class="container_1">
+        <div class="section_top"><img src="https://imgs.search.brave.com/28dj1YN5VCWAmwfaoq4vQVq9EO98cn7SVIDmsUkO6iU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/bG9nb2pveS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjMx/MTI5MDk0NzIwL3Nv/bHV0aW9ucy1ibGFj/ay1sb2dvLndlYnA" alt=""><h2>Innovation hub </h2><img src="https://imgs.search.brave.com/yJzunQdeZj6aM-y4qMoEz28jfDD7tlRtSbLweb1H_Pk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/bW9ja29mdW4uY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDE5/LzEyL2NpcmNsZS1w/cm9maWxlLXBpYy5q/cGc" alt=""></div>
+        <div class="section"><div><i class="fa-solid fa-pen-nib"></i>&nbsp Design Team</div> <div class="sec">x+1</div>    </div>
+        <div class="section"><div><i class="fa-solid fa-code"></i>&nbsp Development Team</div> <div class="sec">x+2</div>    </div>
+        <div class="section"><div><i class="fa-solid fa-money-bill"></i>&nbsp Marketing Team</div> <div class="sec">x+3</div>    </div>
+        <div class="section2"><div><i class="fa-solid fa-image"></i>&nbsp Create an album</div>    </div>
+        
+        <div class="section"><div> <h4><i class="fa-regular fa-folder"></i>&nbsp Folders &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<i class="fa-solid fa-plus"></i></h4></div>    </div>
+        <div class="section" id="Products"><div><i class="fa-regular fa-folder"></i>&nbsp Products &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp <i class="fa-solid fa-play"></i></div>    </div>
+
+        <div class="section_3">
+
+          <h4>Roadmap</h4>
+          <br>
+          <h4>Feedback</h4>
+          <br>
+          <h4>Performance</h4>
+          <br>
+          <h4>Analytics</h4>
+  
+
+        </div>
+
+        <div class="section"><div><i class="fa-regular fa-folder"></i>&nbsp &nbsp Sales</div>    </div>
+
+        <div class="section"><div><i class="fa-regular fa-folder"></i>&nbsp &nbsp Design</div>    </div>
+        <div class="section"><div><i class="fa-regular fa-folder"></i>&nbsp &nbsp Office</div>    </div>
+
+    </div>
+    <div class="container_2">
+      <div class="head">
+        <div class="head1"><h2>Products</h2></div>
+        <div class="head2"><form action="">
+          <i class="fa-solid fa-magnifying-glass"></i>&nbsp;<input type="search" id="inp" placeholder="Search here ..." onkeyup="myFun()"> &nbsp;<i class="fa-regular fa-message"></i> &nbsp;<i class="fa-solid fa-gear"></i>
+        </form></div>
+
+      </div>
+
+
+      <div class="head_2">
+        <div class="elements">
+          <span class="elem"><i class="fa-solid fa-border-all"></i>&nbsp; All Brands</span>&nbsp;
+          <span class="elem"></i>&nbsp; Desk </span>&nbsp;
+          <span class="elem"></i>&nbsp; Tags </span>&nbsp;
+          <span class="elem"><i class="fa-solid fa-sort"></i></i>&nbsp; Sort </span>&nbsp;
+          <span class="elem"><i class="fa-solid fa-filter"></i></i>&nbsp; Filter </span>&nbsp;
+         </span>
+          
+        </div>
+        <div class="">
+          <span class="elem"><i class="fa-light fa-plus"></i>&nbsp;Meeting </span>&nbsp;
+          <span class="elem"><i class="fa-solid fa-arrow-right-arrow-left"></i>&nbsp; Import/Export</span>
+         
+        </div>
+      </div>
+<div class="table">
+
+<div class="table_head">
+  <h3>Board&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-plus"></i></h3>
+  <h3>Description</h3>
+  <h3>&nbsp;&nbsp;Members</h3>
+  <h3>Category</h3> 
+  
+  <h3>Tag</h3>
+  <h3>Next Meeting</h3>
+  <h3><i class="fa-solid fa-plus"></i></h3>
+</div>
+<table>
+ 
+  <tr>
+    <td  class="brand_column"><input type="checkbox"><img src="/images/Empira_Compressed-350x350-1.jpg" alt="">&nbsp;WIX</td>
+    
+    <td  class="desc_column">Develop a Webpage</td>
+    <td  class="mem_column"><img class="members" src="/images/femaleprofile.jpg" alt=""><img class="members2" src="/images/maleprofile.jpg" alt=""><img class="members2" src="/images/fm2.jpg" alt=""><img class="members2" src="/images/lenskart.jpg" alt=""></td>
+    <td class="cat_column"><h6 style="color: darkmagenta;">Automation&nbsp;</h6></td>
+
+    <td class="tag_column"><div class="tags"># SAAS</div> </td>
+    <td class="meet_column"><div class="meeting1" style="color: red;">10 min</div></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  class="brand_column"><input type="checkbox"><img src="/images/shopify.jpg" alt="">&nbsp;Shopify</td>
+    
+    <td class="desc_column">Work on professional</td>
+    <td  class="mem_column"><img class="members" src="/images/maleprofile.jpg" alt=""><img class="members2" src="/images/femaleprofile.jpg" alt=""><img class="members2" src="/images/maleprofile.jpg" alt=""><img class="members2" src="/images/Swiggy.jpg" alt=""></td>
+    <td class="cat_column"><h6 style="color: rgb(139, 74, 0);">Ecommerce&nbsp;Saas</h6></td>
+
+
+    <td class="tag_column"><div class="tags"># iphone</div> <div class="tags">#Services</div></td>
+    <td class="meet_column"><div class="meeting1" style="color: rgb(79, 203, 45);">4 h</div></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  class="brand_column"><input type="checkbox"><img src="/images/amazon6707.jpg" alt="">&nbsp;Amazon</td>
+    
+    <td class="desc_column">Use a webpage</td>
+    <td class="mem_column" ><img class="members" src="/images/femaleprofile.jpg" alt=""><img class="members2" src="/images/fm2.jpg" alt=""><img class="members2" src="/images/femaleprofile.jpg" alt=""></td>
+    <td class="cat_column"><h6 style="color: rgb(0, 139, 72);">Ecom&nbsp; SAAS</h6></td>
+
+    <td class="tag_column"><div class="tags"># Section</div> <div class="tags">Services</div></td>
+    <td class="meet_column"><div class="meeting1" style="color: rgb(254, 10, 234);">2 d</div></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  class="brand_column"><input type="checkbox"><img src="/images/myntra.jpg" alt="">&nbsp;Myntra</td>
+    
+    <td class="desc_column">Deploy a backend</td>
+    <td  class="mem_column"><img class="members" src="/images/maleprofile.jpg" alt=""><img class="members2" src="/images/femaleprofile.jpg" alt=""><img class="members2" src="/images/maleprofile.jpg" alt=""><img class="members2" src="/images/amazon6707.jpg" alt=""></td>
+    <td class="cat_column"><h6 style="color: rgb(0, 95, 139);">Shopping&nbsp;CLothing</h6></td>
+
+
+    <td class="tag_column"><div class="tags"># Fashion</div> <div class="tags">#RockStar</div></td>
+    <td class="meet_column"><div class="meeting1" style="color: red;">5 min</div></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td  class="brand_column"><input type="checkbox"><img src="/images/zomato.jpg" alt="">&nbsp;Zomato</td>
+    
+    <td class="desc_column">Make a chatbot</td>
+    <td  class="mem_column"><img class="members" src="/images/maleprofile.jpg" alt=""><img class="members2" src="/images/fm2.jpg" alt=""><img class="members2" src="/images/shopify.jpg" alt=""></td>
+    <td class="cat_column"><h6 style="color: rgb(255, 77, 0);">Automation&nbsp;Delivery</h6></td>
+
+
+    <td class="tag_column"><div class="tags"># Biryani</div> <div class="tags"># off</div></td>
+    <td class="meet_column"><div class="meeting1" style="color: rgb(79, 203, 45);">50 min</div></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  class="brand_column"><input type="checkbox"><img src="/images/swiggy.jpg" alt="">&nbsp;Swiggy</td>
+    
+    <td class="desc_column">Loation using Apis</td>
+    <td  class="mem_column"><img class="members" src="/images/maleprofile.jpg" alt=""><img class="members2" src="/images/amazon6707.jpg" alt=""><img class="members2" src="/images/fm.jpg" alt=""><img class="members2" src="/images/femaleprofile.jpg" alt=""></td>
+    <td class="cat_column"><h6 style="color: rgb(214, 6, 246);">Food&nbsp;Delivery</h6></td>
+
+    <td class="tag_column"><div class="tags"># Burger</div> <div class="tags"> #Serve</div></td>
+    <td class="meet_column"><div class="meeting1" style="color: rgb(47, 0, 255);">8 h</div></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  class="brand_column"><input type="checkbox"><img src="/images/lenskart.jpg" alt="">&nbsp;Lenskart</td>
+    
+    <td class="desc_column">Marketing at Stores</td>
+    <td  class="mem_column"><img class="members" src="/images/maleprofile.jpg" alt=""><img class="members2" src="/images/boat.jpg" alt=""><img class="members2" src="/images/zomato.jpg" alt=""><img class="members2" src="/images/shopify.jpg" alt=""></td>
+    <td class="cat_column"><h6 style="color: rgb(121, 123, 0);">Personal Care&nbsp;</h6></td>
+
+    <td class="tag_column"><div class="tags"># eyes</div> <div class="tags">Services</div></td>
+    <td class="meet_column"><div class="meeting1" style="color: red;">30 min</div></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  class="brand_column"><input type="checkbox"><img src="/images/emcure.jpg" alt="">&nbsp;Emcure</td>
+    
+    <td class="desc_column">Use a webpage</td>
+    <td  class="mem_column"><img class="members" src="/images/maleprofile.jpg" alt=""><img class="members2" src="/images/femaleprofile.jpg" alt=""><img class="members2" src="/images/emcure.jpg" alt=""></td>
+    <td class="cat_column"><h6 style="color: rgb(11, 252, 208);">Pharma&nbsp;Medico</h6></td>
+
+
+    <td class="tag_column"><div class="tags"># health</div> </td>
+    <td class="meet_column"><div class="meeting1" style="color: rgb(7, 118, 31);">4 d</div></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  class="brand_column"><input type="checkbox"><img src="/images/boat.jpg" alt="">&nbsp;Boat</td>
+    
+    <td class="desc_column">Loation using Apis</td>
+    <td  class="mem_column"><img class="members" src="/images/maleprofile.jpg" alt=""><img class="members2" src="/images/lenskart.jpg" alt=""><img class="members2" src="/images/maleprofile.jpg" alt=""><img class="members2" src="/images/fm2.jpg" alt=""></td>
+    <td class="cat_column"><h6 style="color: rgb(120, 119, 75);">Technology&nbsp;</h6></td>
+
+
+    <td class="tag_column"><div class="tags"># Nirvana</div> <div class="tags"> #Services</div></td>
+    <td class="meet_column"><div class="meeting1 style="color: red;">4 min</div></td>
+    <td></td>
+  </tr>
+
+</table>
+
+
+
+
+
+</div>
+<div class="footer">
+  <div class="tag"><i class="fa-solid fa-3"></i>&nbsp;Selected</div>
+  <div class="tag"><i class="fa-solid fa-box-archive"></i>&nbsp;Archived</div>
+  <div class="tag"><i class="fa-solid fa-trash"></i>&nbsp;Deleted</div>
+  <div class="tag">More &nbsp;<i class="fa-solid fa-angle-right"></i></div>
+</div>
+
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
